@@ -1,0 +1,139 @@
+  @import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:ital,wght@1,600;1,700&family=Nunito+Sans:opsz,wght@6..12,200;6..12,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+.heading{
+  
+    background-color: white;
+    width: 700px;
+    height: 200px;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+h1{
+    color:  hsl(179, 62%, 43%)
+}
+h3{
+    color: white;
+}
+.header{
+    color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.para{
+    color: hsl(218, 22%, 67%);
+    
+}
+.para2{
+    color: white;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.mo{
+    color: white;
+    font-style: 'Karla' , sans-serif;
+}
+
+.last{
+    background-color: hsl(179, 62%, 43%);
+    width: 350px;
+    padding: 1.5rem;
+    height: 200px;
+    border-radius: 0 0 0 10px;
+}
+.last-left{
+    background-color:hsl(179, 62%, 43%);
+    opacity: 0.8;
+    width: 350px;
+    padding: 1rem;
+    height: 200px;
+    border-radius: 0 0 10px 0;
+}
+.list{
+    list-style: none;
+    color: white;
+    margin-left: 10px;
+
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+span{
+    font-weight:100;
+    color:hsl(218, 19%, 45%) ;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 0.5rem;
+    width: 200px;
+    background-color:  hsl(71, 73%, 54%);
+    border-radius:5px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(179, 62%, 43%);
+}
+.y{
+    color: white;
+    margin-bottom: 10px;
+}
+/* @media screen and (max-width: 768px) {
+    body{
+        background-color: green;
+    }
+     */
+
+@media screen and (max-width: 600px) {
+    body{
+       margin-left: 10rem;
+       margin-right:10rem;
+    }
+    
+    .container{
+    flex-direction: column;
+   }
+   .last-left{
+    border-radius: 0 0 10px 10px;
+   }
+   .last{
+    border-radius: 0 0 0 0;
+   }
+   .heading{
+    width: 350px;
+   }
+}
